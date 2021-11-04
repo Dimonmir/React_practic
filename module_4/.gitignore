@@ -1,2 +1,2 @@
-node_modules
-.Idea
+/node_modules
+.idea
