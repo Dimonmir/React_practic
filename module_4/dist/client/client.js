@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "51939beebc73c86b95b2";
+/******/ 	var hotCurrentHash = "943360205983ba18fad5";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -859,6 +859,83 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../module_5/src/shared/Content/content.css":
+/*!**************************************************!*\
+  !*** ../module_5/src/shared/Content/content.css ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./content.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Content/content.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./content.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Content/content.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./content.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Content/content.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Content/content.css?");
+
+/***/ }),
+
+/***/ "../module_5/src/shared/Dropdown/dropdown.css":
+/*!****************************************************!*\
+  !*** ../module_5/src/shared/Dropdown/dropdown.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./dropdown.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Dropdown/dropdown.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./dropdown.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Dropdown/dropdown.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./dropdown.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Dropdown/dropdown.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Dropdown/dropdown.css?");
+
+/***/ }),
+
+/***/ "../module_5/src/shared/Header/SearchBlock/searchblock.css":
+/*!*****************************************************************!*\
+  !*** ../module_5/src/shared/Header/SearchBlock/searchblock.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SearchBlock/searchblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SearchBlock/searchblock.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SearchBlock/searchblock.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/SearchBlock/searchblock.css?");
+
+/***/ }),
+
+/***/ "../module_5/src/shared/Header/SortBlock/sortblock.css":
+/*!*************************************************************!*\
+  !*** ../module_5/src/shared/Header/SortBlock/sortblock.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SortBlock/sortblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SortBlock/sortblock.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SortBlock/sortblock.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/SortBlock/sortblock.css?");
+
+/***/ }),
+
+/***/ "../module_5/src/shared/Header/ThreadTitle/threadtitle.css":
+/*!*****************************************************************!*\
+  !*** ../module_5/src/shared/Header/ThreadTitle/threadtitle.css ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./threadtitle.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/ThreadTitle/threadtitle.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./threadtitle.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/ThreadTitle/threadtitle.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./threadtitle.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/ThreadTitle/threadtitle.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/ThreadTitle/threadtitle.css?");
+
+/***/ }),
+
+/***/ "../module_5/src/shared/Header/header.css":
+/*!************************************************!*\
+  !*** ../module_5/src/shared/Header/header.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/header.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/header.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/header.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/header.css?");
+
+/***/ }),
+
+/***/ "../module_5/src/shared/Layout/layout.css":
+/*!************************************************!*\
+  !*** ../module_5/src/shared/Layout/layout.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../module_4/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./layout.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Layout/layout.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./layout.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Layout/layout.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../module_4/node_modules/css-loader/dist/cjs.js??ref--5-1!./layout.css */ \"./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Layout/layout.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///../module_5/src/shared/Layout/layout.css?");
+
+/***/ }),
+
 /***/ "./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js ***!
@@ -904,6 +981,83 @@ eval("\nmodule.exports = ansiHTML;\n// Reference to https://github.com/sindresor
 
 "use strict";
 eval("\nmodule.exports = function (_a) {\n    var _b = _a === void 0 ? {} : _a, _c = _b.onlyFirst, onlyFirst = _c === void 0 ? false : _c;\n    var pattern = [\n        '[\\\\u001B\\\\u009B][[\\\\]()#;?]*(?:(?:(?:(?:;[-a-zA-Z\\\\d\\\\/#&.:=?%@~_]+)*|[a-zA-Z\\\\d]+(?:;[-a-zA-Z\\\\d\\\\/#&.:=?%@~_]*)*)?\\\\u0007)',\n        '(?:(?:\\\\d{1,4}(?:;\\\\d{0,4})*)?[\\\\dA-PR-TZcf-ntqry=><~]))'\n    ].join('|');\n    return new RegExp(pattern, onlyFirst ? undefined : 'g');\n};\n\n\n//# sourceURL=webpack:///./node_modules/ansi-regex/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Content/content.css":
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Content/content.css ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n    .content__content--1mslZ {\\n        background-color: var(--white);\\n        border-radius: 7px 7px 0 0;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"content\": \"content__content--1mslZ\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Content/content.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Dropdown/dropdown.css":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Dropdown/dropdown.css ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".dropdown__container--2nM4A {\\n  width: 100%;\\n  flex: 1 1 0%;\\n}\\n\\n.dropdown__listContainer--2fIh5 {\\n  position: relative;\\n}\\n\\n.dropdown__list--3hfct {\\n  position: absolute;\\n  left: 0;\\n  top: 0;\\n  width: 100%;\\n  height: 100%;\\n}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"dropdown__container--2nM4A\",\n\t\"listContainer\": \"dropdown__listContainer--2fIh5\",\n\t\"list\": \"dropdown__list--3hfct\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Dropdown/dropdown.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SearchBlock/searchblock.css":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Header/SearchBlock/searchblock.css ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".searchblock__searchBlock--3BCie{\\n    display: flex;\\n    flex-flow: row nowrap;\\n    justify-content: space-between;\\n    align-items: center;\\n    padding: 14px 20px;\\n    background-color: var(--white);\\n    border-radius:  0 0 7px 7px;\\n    box-shadow:  0 0 20px rgba(0, 0, 0, 0.1);\\n    margin: 0 0 38px;\\n}\\n\\n@media all and (min-width: 1024px) {\\n    .searchblock__searchBlock--3BCie {\\n        padding: 0;\\n        margin: 0 0 0 auto;\\n        background-color: transparent;\\n        border-radius: 0;\\n        box-shadow: none;\\n        order: 3;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"searchBlock\": \"searchblock__searchBlock--3BCie\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/SearchBlock/searchblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/SortBlock/sortblock.css":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Header/SortBlock/sortblock.css ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".sortblock__sortBlock--5TXz-{\\n    background-color: var(--white);\\n    padding: 11px 20px;\\n    border-radius: 7px;\\n    margin: 0 0 20px;\\n}\\n\\n@media all and (min-width: 1024px) {\\n     .sortblock__sortBlock--5TXz- {\\n         background-color: transparent;\\n         padding: 0;\\n         margin: 0;\\n         border-radius: 0;\\n     }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"sortBlock\": \"sortblock__sortBlock--5TXz-\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/SortBlock/sortblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/ThreadTitle/threadtitle.css":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Header/ThreadTitle/threadtitle.css ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".threadtitle__threadTitle--8jyZ8 {\\n    font-width: normal;\\n    padding: 0 20px;\\n    font-size: 20px;\\n    font-height: 23px;\\n    margin: 0 0 15px;\\n}\\n\\n@media all and (max-width: 1024px) {\\n    .threadtitle__threadTitle--8jyZ8{\\n        padding: 0;\\n        margin: 0 27px 0 0;\\n        font-size: 28px;\\n        line-height: 33px;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"threadTitle\": \"threadtitle__threadTitle--8jyZ8\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/ThreadTitle/threadtitle.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Header/header.css":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Header/header.css ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n    .header__header--6cAHz {\\n        display: flex;\\n        flex-flow: row nowrap;\\n        align-items: center;\\n        padding: 40px;\\n    }\\n}\\n\\n@media all and (min-width: 1540px) {\\n    .header__header--6cAHz {\\n        padding: 67px 0;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"header\": \"header__header--6cAHz\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Header/header.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!../module_5/src/shared/Layout/layout.css":
+/*!************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!../module_5/src/shared/Layout/layout.css ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../module_4/node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".layout__layout--2UBLu {\\n    max-width: 1400px;\\n    margin: 0 auto;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"layout\": \"layout__layout--2UBLu\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///../module_5/src/shared/Layout/layout.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -981,72 +1135,6 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n    .cardlist__cardList--1csLe {\\n        padding: 40px 0;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"cardList\": \"cardlist__cardList--1csLe\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/CardList/cardlist.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Content/content.css":
-/*!****************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Content/content.css ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n    .content__content--2O9-S {\\n        background-color: var(--white);\\n        border-radius: 7px 7px 0 0;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"content\": \"content__content--2O9-S\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Content/content.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SearchBlock/searchblock.css ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".searchblock__searchBlock--3aDPv{\\n    display: flex;\\n    flex-flow: row nowrap;\\n    justify-content: space-between;\\n    align-items: center;\\n    padding: 14px 20px;\\n    background-color: var(--white);\\n    border-radius:  0 0 7px 7px;\\n    box-shadow:  0 0 20px rgba(0, 0, 0, 0.1);\\n    margin: 0 0 38px;\\n}\\n\\n@media all and (min-width: 1024px) {\\n    .searchblock__searchBlock--3aDPv {\\n        padding: 0;\\n        margin: 0 0 0 auto;\\n        background-color: transparent;\\n        border-radius: 0;\\n        box-shadow: none;\\n        order: 3;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"searchBlock\": \"searchblock__searchBlock--3aDPv\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/searchblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/SortBlock/sortblock.css ***!
-  \***************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".sortblock__sortBlock--141aZ{\\n    background-color: var(--white);\\n    padding: 11px 20px;\\n    border-radius: 7px;\\n    margin: 0 0 20px;\\n}\\n\\n@media all and (min-width: 1024px) {\\n     .sortblock__sortBlock--141aZ {\\n         background-color: transparent;\\n         padding: 0;\\n         margin: 0;\\n         border-radius: 0;\\n     }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"sortBlock\": \"sortblock__sortBlock--141aZ\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/sortblock.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/ThreadTitle/threadtitle.css":
-/*!*******************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/ThreadTitle/threadtitle.css ***!
-  \*******************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".threadtitle__threadTitle--oxugx {\\n    font-width: normal;\\n    padding: 0 20px;\\n    font-size: 20px;\\n    font-height: 23px;\\n    margin: 0 0 15px;\\n}\\n\\n@media all and (max-width: 1024px) {\\n    .threadtitle__threadTitle--oxugx{\\n        padding: 0;\\n        margin: 0 27px 0 0;\\n        font-size: 28px;\\n        line-height: 33px;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"threadTitle\": \"threadtitle__threadTitle--oxugx\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/ThreadTitle/threadtitle.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Header/header.css ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"@media all and (min-width: 1024px) {\\n    .header__header--bAgyG {\\n        display: flex;\\n        flex-flow: row nowrap;\\n        align-items: center;\\n        padding: 40px;\\n    }\\n}\\n\\n@media all and (min-width: 1540px) {\\n    .header__header--bAgyG {\\n        padding: 67px 0;\\n    }\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"header\": \"header__header--bAgyG\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Header/header.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./src/shared/Layout/layout.css":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./src/shared/Layout/layout.css ***!
-  \**************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".layout__layout--2fANc {\\n    max-width: 1400px;\\n    margin: 0 auto;\\n}\", \"\"]);\n// Exports\nexports.locals = {\n\t\"layout\": \"layout__layout--2fANc\"\n};\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/shared/Layout/layout.css?./node_modules/css-loader/dist/cjs.js??ref--5-1");
 
 /***/ }),
 
@@ -1500,7 +1588,7 @@ eval("\nmodule.exports = function (module) {\n    if (!module.webpackPolyfill) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.App = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n__webpack_require__(/*! ./main.global.css */ \"./src/main.global.css\");\nvar root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\nvar Layout_1 = __webpack_require__(/*! ./shared/Layout */ \"./src/shared/Layout/index.ts\");\nvar Header_1 = __webpack_require__(/*! ./shared/Header */ \"./src/shared/Header/index.ts\");\nvar Content_1 = __webpack_require__(/*! ./shared/Content */ \"./src/shared/Content/index.ts\");\nvar CardList_1 = __webpack_require__(/*! ./shared/CardList */ \"./src/shared/CardList/index.ts\");\nfunction AppComponent() {\n    return (react_1.default.createElement(Layout_1.Layout, null,\n        react_1.default.createElement(Header_1.Header, null),\n        react_1.default.createElement(Content_1.Content, null,\n            react_1.default.createElement(CardList_1.CardList, null))));\n}\nexports.App = (0, root_1.hot)(AppComponent);\n\n\n//# sourceURL=webpack:///./src/App.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.App = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\n__webpack_require__(/*! ./main.global.css */ \"./src/main.global.css\");\nvar root_1 = __webpack_require__(/*! react-hot-loader/root */ \"./node_modules/react-hot-loader/root.js\");\nvar Layout_1 = __webpack_require__(/*! ./shared/Layout */ \"./src/shared/Layout/index.ts\");\nvar Header_1 = __webpack_require__(/*! ./shared/Header */ \"./src/shared/Header/index.ts\");\nvar Content_1 = __webpack_require__(/*! ./shared/Content */ \"./src/shared/Content/index.ts\");\nvar CardList_1 = __webpack_require__(/*! ./shared/CardList */ \"./src/shared/CardList/index.ts\");\nvar Dropdown_1 = __webpack_require__(/*! ./shared/Dropdown */ \"./src/shared/Dropdown/index.ts\");\nfunction AppComponent() {\n    return (react_1.default.createElement(Layout_1.Layout, null,\n        react_1.default.createElement(Header_1.Header, null),\n        react_1.default.createElement(Content_1.Content, null,\n            react_1.default.createElement(CardList_1.CardList, null),\n            react_1.default.createElement(\"div\", { style: { padding: 20 } },\n                react_1.default.createElement(\"br\", null),\n                react_1.default.createElement(Dropdown_1.Dropdown, { isOpen: false, button: react_1.default.createElement(\"button\", null, \" test \") },\n                    react_1.default.createElement(CardList_1.CardList, null))))));\n}\nexports.App = (0, root_1.hot)(AppComponent);\n\n\n//# sourceURL=webpack:///./src/App.tsx?");
 
 /***/ }),
 
@@ -1733,7 +1821,7 @@ eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\n}) : (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    o[k2] = m[k];\n}));\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__exportStar(__webpack_require__(/*! ./CardList */ \"./src/shared/CardList/CardList.tsx\"), exports);\n\n\n//# sourceURL=webpack:///./src/shared/CardList/index.ts?");
+eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\n}) : (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    o[k2] = m[k];\n}));\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.preventDefault = void 0;\n__exportStar(__webpack_require__(/*! ./CardList */ \"./src/shared/CardList/CardList.tsx\"), exports);\nvar PreventDefault_1 = __webpack_require__(/*! ../../utils/react/PreventDefault */ \"./src/utils/react/PreventDefault.tsx\");\nObject.defineProperty(exports, \"preventDefault\", { enumerable: true, get: function () { return PreventDefault_1.preventDefault; } });\n\n\n//# sourceURL=webpack:///./src/shared/CardList/index.ts?");
 
 /***/ }),
 
@@ -1745,18 +1833,7 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Content = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar content_css_1 = __importDefault(__webpack_require__(/*! ./content.css */ \"./src/shared/Content/content.css\"));\nvar IContentProps = /** @class */ (function () {\n    function IContentProps() {\n    }\n    return IContentProps;\n}());\nfunction Content(_a) {\n    var children = _a.children;\n    return (react_1.default.createElement(\"main\", { className: content_css_1.default.content }, children));\n}\nexports.Content = Content;\n\n\n//# sourceURL=webpack:///./src/shared/Content/Content.tsx?");
-
-/***/ }),
-
-/***/ "./src/shared/Content/content.css":
-/*!****************************************!*\
-  !*** ./src/shared/Content/content.css ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./content.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Content/content.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./content.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Content/content.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./content.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Content/content.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/shared/Content/content.css?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Content = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar content_css_1 = __importDefault(__webpack_require__(/*! ../../../../module_5/src/shared/Content/content.css */ \"../module_5/src/shared/Content/content.css\"));\nvar IContentProps = /** @class */ (function () {\n    function IContentProps() {\n    }\n    return IContentProps;\n}());\nfunction Content(_a) {\n    var children = _a.children;\n    return (react_1.default.createElement(\"main\", { className: content_css_1.default.content }, children));\n}\nexports.Content = Content;\n\n\n//# sourceURL=webpack:///./src/shared/Content/Content.tsx?");
 
 /***/ }),
 
@@ -1772,6 +1849,30 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 
 /***/ }),
 
+/***/ "./src/shared/Dropdown/Dropdown.tsx":
+/*!******************************************!*\
+  !*** ./src/shared/Dropdown/Dropdown.tsx ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Dropdown = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar dropdown_css_1 = __importDefault(__webpack_require__(/*! ../../../../module_5/src/shared/Dropdown/dropdown.css */ \"../module_5/src/shared/Dropdown/dropdown.css\"));\nvar iDropdownProps = /** @class */ (function () {\n    function iDropdownProps() {\n    }\n    return iDropdownProps;\n}());\nvar NOOP = function () { };\nfunction Dropdown(_a) {\n    var button = _a.button, children = _a.children, isOpen = _a.isOpen, _b = _a.onOpen, onOpen = _b === void 0 ? NOOP : _b, _c = _a.onClose, onClose = _c === void 0 ? NOOP : _c;\n    var _d = react_1.default.useState(isOpen), isDropdownOpen = _d[0], setIsDropdownOpen = _d[1];\n    react_1.default.useEffect(function () { return setIsDropdownOpen(isOpen); }, [isOpen]);\n    react_1.default.useEffect(function () { return isDropdownOpen ? onOpen() : onClose(); }, [isDropdownOpen]);\n    var handleOpen = function () {\n        if (isOpen === undefined) {\n            setIsDropdownOpen(!isDropdownOpen);\n        }\n    };\n    return (react_1.default.createElement(\"div\", { className: dropdown_css_1.default.container },\n        react_1.default.createElement(\"div\", { onClick: function () { return handleOpen; } }, button),\n        isDropdownOpen && (react_1.default.createElement(\"div\", { className: dropdown_css_1.default.listContainer },\n            react_1.default.createElement(\"div\", { className: dropdown_css_1.default.list, onClick: function () { return setIsDropdownOpen(false); } }, children)))));\n}\nexports.Dropdown = Dropdown;\n\n\n//# sourceURL=webpack:///./src/shared/Dropdown/Dropdown.tsx?");
+
+/***/ }),
+
+/***/ "./src/shared/Dropdown/index.ts":
+/*!**************************************!*\
+  !*** ./src/shared/Dropdown/index.ts ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\n}) : (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    o[k2] = m[k];\n}));\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__exportStar(__webpack_require__(/*! ./Dropdown */ \"./src/shared/Dropdown/Dropdown.tsx\"), exports);\n\n\n//# sourceURL=webpack:///./src/shared/Dropdown/index.ts?");
+
+/***/ }),
+
 /***/ "./src/shared/Header/Header.tsx":
 /*!**************************************!*\
   !*** ./src/shared/Header/Header.tsx ***!
@@ -1780,7 +1881,7 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Header = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar header_css_1 = __importDefault(__webpack_require__(/*! ./header.css */ \"./src/shared/Header/header.css\"));\nvar SearchBlock_1 = __webpack_require__(/*! ./SearchBlock */ \"./src/shared/Header/SearchBlock/index.ts\");\nvar ThreadTitle_1 = __webpack_require__(/*! ./ThreadTitle */ \"./src/shared/Header/ThreadTitle/index.ts\");\nvar SortBlock_1 = __webpack_require__(/*! ./SortBlock */ \"./src/shared/Header/SortBlock/index.ts\");\nfunction Header() {\n    return (react_1.default.createElement(\"header\", { className: header_css_1.default.header },\n        react_1.default.createElement(SearchBlock_1.SearchBlock, null),\n        react_1.default.createElement(ThreadTitle_1.ThreadTitle, null),\n        react_1.default.createElement(SortBlock_1.SortBlock, null)));\n}\nexports.Header = Header;\n\n\n//# sourceURL=webpack:///./src/shared/Header/Header.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Header = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar header_css_1 = __importDefault(__webpack_require__(/*! ../../../../module_5/src/shared/Header/header.css */ \"../module_5/src/shared/Header/header.css\"));\nvar SearchBlock_1 = __webpack_require__(/*! ./SearchBlock */ \"./src/shared/Header/SearchBlock/index.ts\");\nvar ThreadTitle_1 = __webpack_require__(/*! ./ThreadTitle */ \"./src/shared/Header/ThreadTitle/index.ts\");\nvar SortBlock_1 = __webpack_require__(/*! ./SortBlock */ \"./src/shared/Header/SortBlock/index.ts\");\nfunction Header() {\n    return (react_1.default.createElement(\"header\", { className: header_css_1.default.header },\n        react_1.default.createElement(SearchBlock_1.SearchBlock, null),\n        react_1.default.createElement(ThreadTitle_1.ThreadTitle, null),\n        react_1.default.createElement(SortBlock_1.SortBlock, null)));\n}\nexports.Header = Header;\n\n\n//# sourceURL=webpack:///./src/shared/Header/Header.tsx?");
 
 /***/ }),
 
@@ -1792,7 +1893,7 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.SearchBlock = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar searchblock_css_1 = __importDefault(__webpack_require__(/*! ./searchblock.css */ \"./src/shared/Header/SearchBlock/searchblock.css\"));\nfunction SearchBlock() {\n    return (react_1.default.createElement(\"div\", { className: searchblock_css_1.default.searchBlock }, \"seach block\"));\n}\nexports.SearchBlock = SearchBlock;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/SearchBlock.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.SearchBlock = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar searchblock_css_1 = __importDefault(__webpack_require__(/*! ../../../../../module_5/src/shared/Header/SearchBlock/searchblock.css */ \"../module_5/src/shared/Header/SearchBlock/searchblock.css\"));\nfunction SearchBlock() {\n    return (react_1.default.createElement(\"div\", { className: searchblock_css_1.default.searchBlock }, \"seach block\"));\n}\nexports.SearchBlock = SearchBlock;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/SearchBlock.tsx?");
 
 /***/ }),
 
@@ -1808,17 +1909,6 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 
 /***/ }),
 
-/***/ "./src/shared/Header/SearchBlock/searchblock.css":
-/*!*******************************************************!*\
-  !*** ./src/shared/Header/SearchBlock/searchblock.css ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./searchblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SearchBlock/searchblock.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/shared/Header/SearchBlock/searchblock.css?");
-
-/***/ }),
-
 /***/ "./src/shared/Header/SortBlock/SortBlock.tsx":
 /*!***************************************************!*\
   !*** ./src/shared/Header/SortBlock/SortBlock.tsx ***!
@@ -1827,7 +1917,7 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.SortBlock = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar sortblock_css_1 = __importDefault(__webpack_require__(/*! ./sortblock.css */ \"./src/shared/Header/SortBlock/sortblock.css\"));\nfunction SortBlock() {\n    return (react_1.default.createElement(\"div\", { className: sortblock_css_1.default.sortBlock }, \"sorting dropdown\"));\n}\nexports.SortBlock = SortBlock;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/SortBlock.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.SortBlock = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar sortblock_css_1 = __importDefault(__webpack_require__(/*! ../../../../../module_5/src/shared/Header/SortBlock/sortblock.css */ \"../module_5/src/shared/Header/SortBlock/sortblock.css\"));\nfunction SortBlock() {\n    return (react_1.default.createElement(\"div\", { className: sortblock_css_1.default.sortBlock }, \"sorting dropdown\"));\n}\nexports.SortBlock = SortBlock;\n\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/SortBlock.tsx?");
 
 /***/ }),
 
@@ -1843,17 +1933,6 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 
 /***/ }),
 
-/***/ "./src/shared/Header/SortBlock/sortblock.css":
-/*!***************************************************!*\
-  !*** ./src/shared/Header/SortBlock/sortblock.css ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./sortblock.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/SortBlock/sortblock.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/shared/Header/SortBlock/sortblock.css?");
-
-/***/ }),
-
 /***/ "./src/shared/Header/ThreadTitle/ThreadTitle.tsx":
 /*!*******************************************************!*\
   !*** ./src/shared/Header/ThreadTitle/ThreadTitle.tsx ***!
@@ -1862,7 +1941,7 @@ eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/di
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ThreadTitle = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar threadtitle_css_1 = __importDefault(__webpack_require__(/*! ./threadtitle.css */ \"./src/shared/Header/ThreadTitle/threadtitle.css\"));\nfunction ThreadTitle() {\n    return (react_1.default.createElement(\"h1\", { className: threadtitle_css_1.default.threadTitle }, \"Header\"));\n}\nexports.ThreadTitle = ThreadTitle;\n\n\n//# sourceURL=webpack:///./src/shared/Header/ThreadTitle/ThreadTitle.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ThreadTitle = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar threadtitle_css_1 = __importDefault(__webpack_require__(/*! ../../../../../module_5/src/shared/Header/ThreadTitle/threadtitle.css */ \"../module_5/src/shared/Header/ThreadTitle/threadtitle.css\"));\nfunction ThreadTitle() {\n    return (react_1.default.createElement(\"h1\", { className: threadtitle_css_1.default.threadTitle }, \"Header\"));\n}\nexports.ThreadTitle = ThreadTitle;\n\n\n//# sourceURL=webpack:///./src/shared/Header/ThreadTitle/ThreadTitle.tsx?");
 
 /***/ }),
 
@@ -1875,28 +1954,6 @@ eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {
 
 "use strict";
 eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\n}) : (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    o[k2] = m[k];\n}));\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\n    for (var p in m) if (p !== \"default\" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__exportStar(__webpack_require__(/*! ./ThreadTitle */ \"./src/shared/Header/ThreadTitle/ThreadTitle.tsx\"), exports);\n\n\n//# sourceURL=webpack:///./src/shared/Header/ThreadTitle/index.ts?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/ThreadTitle/threadtitle.css":
-/*!*******************************************************!*\
-  !*** ./src/shared/Header/ThreadTitle/threadtitle.css ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./threadtitle.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/ThreadTitle/threadtitle.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./threadtitle.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/ThreadTitle/threadtitle.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./threadtitle.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/ThreadTitle/threadtitle.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/shared/Header/ThreadTitle/threadtitle.css?");
-
-/***/ }),
-
-/***/ "./src/shared/Header/header.css":
-/*!**************************************!*\
-  !*** ./src/shared/Header/header.css ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./header.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Header/header.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/shared/Header/header.css?");
 
 /***/ }),
 
@@ -1920,7 +1977,7 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Layout = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar layout_css_1 = __importDefault(__webpack_require__(/*! ./layout.css */ \"./src/shared/Layout/layout.css\"));\nfunction Layout(_a) {\n    var children = _a.children;\n    return (react_1.default.createElement(\"div\", { className: layout_css_1.default.layout }, children));\n}\nexports.Layout = Layout;\n\n\n//# sourceURL=webpack:///./src/shared/Layout/Layout.tsx?");
+eval("\nvar __importDefault = (this && this.__importDefault) || function (mod) {\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Layout = void 0;\nvar react_1 = __importDefault(__webpack_require__(/*! react */ \"./node_modules/react/index.js\"));\nvar layout_css_1 = __importDefault(__webpack_require__(/*! ../../../../module_5/src/shared/Layout/layout.css */ \"../module_5/src/shared/Layout/layout.css\"));\nfunction Layout(_a) {\n    var children = _a.children;\n    return (react_1.default.createElement(\"div\", { className: layout_css_1.default.layout }, children));\n}\nexports.Layout = Layout;\n\n\n//# sourceURL=webpack:///./src/shared/Layout/Layout.tsx?");
 
 /***/ }),
 
@@ -1936,14 +1993,15 @@ eval("\nvar __createBinding = (this && this.__createBinding) || (Object.create ?
 
 /***/ }),
 
-/***/ "./src/shared/Layout/layout.css":
-/*!**************************************!*\
-  !*** ./src/shared/Layout/layout.css ***!
-  \**************************************/
+/***/ "./src/utils/react/PreventDefault.tsx":
+/*!********************************************!*\
+  !*** ./src/utils/react/PreventDefault.tsx ***!
+  \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./layout.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Layout/layout.css\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\nif (true) {\n  if (!content.locals || module.hot.invalidate) {\n    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {\n  if (!a && b || a && !b) {\n    return false;\n  }\n\n  var p;\n\n  for (p in a) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (a[p] !== b[p]) {\n      return false;\n    }\n  }\n\n  for (p in b) {\n    if (isNamedExport && p === 'default') {\n      // eslint-disable-next-line no-continue\n      continue;\n    }\n\n    if (!a[p]) {\n      return false;\n    }\n  }\n\n  return true;\n};\n    var oldLocals = content.locals;\n\n    module.hot.accept(\n      /*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./layout.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Layout/layout.css\",\n      function () {\n        content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!./layout.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/shared/Layout/layout.css\");\n\n              content = content.__esModule ? content.default : content;\n\n              if (typeof content === 'string') {\n                content = [[module.i, content, '']];\n              }\n\n              if (!isEqualLocals(oldLocals, content.locals)) {\n                module.hot.invalidate();\n\n                return;\n              }\n\n              oldLocals = content.locals;\n\n              update(content);\n      }\n    )\n  }\n\n  module.hot.dispose(function() {\n    update();\n  });\n}\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/shared/Layout/layout.css?");
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nfunction preventDefault(fn) {\n    return function (e) {\n        e.preventDefault();\n        fn(e);\n    };\n}\n\n\n//# sourceURL=webpack:///./src/utils/react/PreventDefault.tsx?");
 
 /***/ }),
 

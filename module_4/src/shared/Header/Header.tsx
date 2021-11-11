@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './header.css';
+import styles from '../../../../module_5/src/shared/Header/header.css';
 import {SearchBlock} from "./SearchBlock";
 import {ThreadTitle} from "./ThreadTitle";
 import {SortBlock} from "./SortBlock";

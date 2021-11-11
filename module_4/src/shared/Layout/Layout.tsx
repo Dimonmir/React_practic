@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './layout.css';
+import styles from '../../../../module_5/src/shared/Layout/layout.css';
 
 interface ILayoutProps {
   children?: React.ReactNode;

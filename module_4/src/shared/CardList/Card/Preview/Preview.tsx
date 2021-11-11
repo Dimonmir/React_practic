@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './preview.css';
+import styles from '../../../../../../module_5/src/shared/CardList/Card/Preview/preview.css';
 
 interface IPreview {
     src: string,

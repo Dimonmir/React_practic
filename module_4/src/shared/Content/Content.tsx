@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './content.css';
+import styles from '../../../../module_5/src/shared/Content/content.css';
 
 class IContentProps {
   children?: React.ReactNode;

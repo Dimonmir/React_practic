@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './dropdown.css';
+import styles from '../../../../module_5/src/shared/Dropdown/dropdown.css';
 
 class iDropdownProps {
   button: React.ReactNode;

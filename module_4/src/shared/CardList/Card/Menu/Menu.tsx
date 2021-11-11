@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './menu.css';
+import styles from '../../../../../../module_5/src/shared/CardList/Card/Menu/menu.css';
 
 export function Menu() {
   return (

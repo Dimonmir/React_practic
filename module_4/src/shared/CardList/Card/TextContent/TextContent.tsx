@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './textcontent.css';
+import styles from '../../../../../../module_5/src/shared/CardList/Card/TextContent/textcontent.css';
 
 interface ITextContent{
     Content: {
